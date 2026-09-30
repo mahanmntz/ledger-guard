@@ -1,0 +1,30 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+ledger-guard
+
+# Test and profiling artifacts
+*.test
+*.out
+*.prof
+coverage.txt
+
+# Environment and secrets
+.env
+.env.local
+
+# IDE and OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker local data
+*.tar
